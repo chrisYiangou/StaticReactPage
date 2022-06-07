@@ -12,12 +12,20 @@ code {
     monospace;
 }
 
+main {
+  background-image: url(./pictures/reactjs_main.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
 .navbar {
   background-color: #21222A;
   display: flex;
   justify-content: flex-start;
   gap: 10px;
   box-shadow: #434555;
+  padding: 20px 0px 20px 0px;
+  align-items: center;
 
 }
 
@@ -30,6 +38,7 @@ code {
 .nav-title {
   color: #61dbfb;
   font-weight: bolder;
+
   
 }
 
@@ -50,6 +59,7 @@ code {
 .main-title {
   padding-top: 50px;
   margin : 0px 50px 0px 50px;
+  font-size: 45px;
 }
 
 ul {
