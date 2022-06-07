@@ -13,5 +13,51 @@ code {
 }
 
 .navbar {
-  background-color: aqua;
+  background-color: #21222A;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  box-shadow: #434555;
+
+}
+
+.react-pic {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0px 10px 10px;
+}
+
+.nav-title {
+  color: #61dbfb;
+  font-weight: bolder;
+  
+}
+
+.nav-text {
+  color : #DEEBF8;
+  margin-left: auto;
+
+}
+
+.main-body{
+  background-color: #282D35;
+  color: #DEEBF8;
+  width: auto;
+  height: 100vh;
+  text-align: left;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+  
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #61dbfb;; /* Change the color */
+  font-size: xx-large;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 1em; /* Also needed for space (tweak if needed) */
 }
