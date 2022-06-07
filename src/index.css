@@ -13,7 +13,7 @@ code {
 }
 
 main {
-  background-image: url(./pictures/reactjs_main.png);
+  background-image: url("./pictures/reactjs_main.png");
   background-repeat: no-repeat;
   background-position: right center;
 }

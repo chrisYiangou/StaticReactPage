@@ -1,8 +1,9 @@
 import React from "react"
+import MainReactPic from "../pictures/reactjs_main.png"
 
 export default function Main() {
     return (
-        <div className="main-body">
+        <div className="main-body" style={{backgroundImage: `url(${MainReactPic})`, backgroundRepeat: "no-repeat", backgroundPosition: "right 40%"}}>
             <h1 className="main-title">
             Fun Facts about React
             </h1>
