@@ -47,6 +47,11 @@ code {
   text-align: left;
 }
 
+.main-title {
+  padding-top: 50px;
+  margin : 0px 50px 0px 50px;
+}
+
 ul {
   list-style: none; /* Remove default bullets */
   
